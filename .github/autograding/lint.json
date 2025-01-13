@@ -1,5 +1,5 @@
 {
-  "files": ["main.py"],
+  "files": ["vmcopy.py"],
   "ignore" : [],
   "max": 5
 }
