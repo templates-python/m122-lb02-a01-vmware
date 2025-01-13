@@ -1,4 +1,4 @@
-import main
+import vmcopy
 
 def test(capsys):
     main.main()
