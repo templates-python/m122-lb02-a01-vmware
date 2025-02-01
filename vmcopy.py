@@ -15,7 +15,7 @@ def main():
 
     vmname, users = parse_arguments()
     check_folders(vmname)
-    vm_copy(vmname, users)
+    user_copy(vmname, users)
 
 
 def parse_arguments():
@@ -40,9 +40,9 @@ def check_folders(vmname):
     pass
 
 
-def vm_copy(vm_name, users):
+def user_copy(vm_name, users):
     """
-    Copy the vm to the users
+    Create the folder for the user and control the copy process
     :param: vm_name -- the name of the vm to copy
     :param: users -- a list of users to create copies for
     :return: None
